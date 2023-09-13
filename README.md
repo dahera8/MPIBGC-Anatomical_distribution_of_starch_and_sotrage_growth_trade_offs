@@ -7,7 +7,7 @@ In this repositiry you will find the data and code corresponding to the results 
 
 The ropository has three folders (data, outpust and scripts). 
 
-In the folder data you will find all the data used to obtain the results presented in the paper. There you can find the starch concentration measurements per species, the growth rates and the respiration rates measured during 2019. 
+In the folder "data" you will find all the data used to obtain the results presented in the paper. There, you can find the starch concentration measurements, the growth rates and the respiration rates measured during 2019 in each of the species evaluated (Dacryodes microcarpa, Sacoglotis guianensis and Ocotea leucoxylon). 
 
 The folder outputs contain all the figures resulting from the different calculation and analysis performed in R
 
