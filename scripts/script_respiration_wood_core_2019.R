@@ -6,7 +6,7 @@ library(dplyr)
 library(dplyrUtil, quietly = TRUE)
 library(rstatix)
 
-setwd("/Users/_dherrera/Documents/balzan_project/Manuscript_submissions/NSC_seasonality_and_growth/Journal_of_ecology/revision2/scripts_and_data/")
+setwd("/Users/_dherrera/MPIBGC-Anatomical_distribution_of_starch_and_sotrage_growth_trade_offs/")
 
 
 ###### processing data from May 2019 #####

@@ -7,7 +7,7 @@ library(dplyrUtil, quietly = TRUE)
 library(ggplot2)
 
 ###reading the data of parenchyma and starch out of the ImageJ files
-path="/Users/_dherrera/Documents/balzan_project/Manuscript_submissions/NSC_seasonality_and_growth/Journal_of_ecology/revision2/scripts_and_data/"
+path="/Users/_dherrera/MPIBGC-Anatomical_distribution_of_starch_and_sotrage_growth_trade_offs/"
 setwd(path)
 
 source("scripts/R_function_stat_smooth.R")
