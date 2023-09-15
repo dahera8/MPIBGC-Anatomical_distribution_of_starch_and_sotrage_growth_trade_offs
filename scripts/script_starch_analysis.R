@@ -1836,7 +1836,7 @@ ggplot(ci_boot_unnest_df, aes(x=month_changes, y=t0, col=storage_strategy))+
 dev.off()
   
  
-png("outputs/rel_starch_changes_between_months_D_S_O_separated_boxplot.png",width = 1500, height = 2000)
+png("outputs/rel_starch_changes_between_months_D_S_O_separated_boxplot.png",width = 1950, height = 2000)
 ggplot(woodstarch_all_species2_melt)+
   geom_boxplot(aes(x=changed_months, y=rel_starch_change, fill=storage_strategy, alpha=0.3))+
   geom_hline(yintercept = 0, linetype="dashed", color="red")+
@@ -1844,7 +1844,7 @@ ggplot(woodstarch_all_species2_melt)+
   ylim(-4,1)+
   facet_wrap(~species_trait, scales = "free", ncol=1)+
   theme_classic()+
-  theme(axis.text.x=element_text(size = rel(3.5)),
+  theme(axis.text.x=element_text(size = rel(5)),
         axis.text.y=element_text(size = rel(6)),
         axis.title.x = element_text(size = rel(6)),
         axis.title.y = element_text(size = rel(6)),
